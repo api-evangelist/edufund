@@ -1,0 +1,15 @@
+generated: '2026-10-24'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.edufund.in/blog/kanya-kosh-scheme/
+sources:
+- https://www.edufund.in/blog/kanya-kosh-scheme/
+- https://www.edufund.in/blog/documents-required-for-mutual-fund-kyc-compliance/
+- https://www.edufund.in/privacy-policy/
+standards:
+- id: iso-27001
+  conforms: true
+  evidence: …security practices and procedures as prescribed under the Information Technology (Reasonable Security Practices and Procedures and
+    Sensitive Personal Data or Information) Rules, 2011 (“SPDI Rules”) such as IS/ISO/IEC 27001 on Information Technology Security Techniques
+    Information Security Management System Requirements.
+docs: https://www.edufund.in/blog/kanya-kosh-scheme/

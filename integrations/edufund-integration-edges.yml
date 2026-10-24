@@ -1,0 +1,16 @@
+generated: '2026-10-24'
+method: none
+source:
+- https://zapier.com/apps/edufund/integrations
+- https://n8n.io/integrations/edufund/
+- https://composio.dev/toolkits/edufund
+- https://monid.ai/tools/edufund
+checked:
+- https://composio.dev/toolkits/edufund
+- https://monid.ai/tools/edufund
+- https://n8n.io/integrations/edufund/
+- https://zapier.com/apps/edufund/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

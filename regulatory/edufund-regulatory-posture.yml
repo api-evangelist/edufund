@@ -1,0 +1,12 @@
+generated: '2026-10-24'
+method: probed
+source: https://www.edufund.in/privacy-policy/
+signals:
+  data_retention:
+    url: https://www.edufund.in/privacy-policy/
+    note: Retains personal data only as needed for service provision and removes it thereafter.
+    evidence:
+      - source: https://www.edufund.in/privacy-policy/
+        http_status: 200
+        fetched: "true"
+        quote: "The Company will retain User Data as long as is necessary for the purposes of providing the services and for such other purposes as set out in this Privacy Policy. After discontinuation of the respective purpose, the corresponding data will be removed in accordance with the applicable laws."

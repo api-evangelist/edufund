@@ -1,25 +1,86 @@
 aid: edufund
+
 name: Edufund
-description: 'Edufund is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by crane-venture-partners) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://www.edufund.in/wp-content/uploads/2024/12/EduFund-social-image-scaled.jpg
+
+description: EduFund is an Indian fintech platform that helps parents plan and invest for their children’s education costs. It offers fixed‑deposit,
+  mutual‑fund, and loan products, along with AI‑driven calculators and counselling services to optimise long‑term education savings.
+
 url: https://raw.githubusercontent.com/api-evangelist/edufund/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-24 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-24'
+
 modified: '2026-10-24'
+
 tags:
 - Company
-apis: []
+- Fintech
+- Education
+- Investment
+- India
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- crane-venture-partners
+
 common:
+- type: Conformance
+  url: conformance/edufund-conformance.yml
+- type: LLMsTxt
+  url: llms/edufund-llms.txt
+- type: Hosts
+  url: hosts/edufund-hosts.yml
+- type: Newsroom
+  url: https://www.edufund.in/media/
+- type: GettingStarted
+  url: https://www.edufund.in/get-started/
+- type: DomainSecurity
+  url: security/edufund-domain-security.yml
 - type: Website
   url: https://www.edufund.in/
+- type: Documentation
+  url: https://www.edufund.in/about-us/
+- type: Blog
+  url: https://www.edufund.in/blog/
+- type: TermsOfService
+  url: https://www.edufund.in/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://www.edufund.in/privacy-policy/
+- type: Support
+  url: https://www.edufund.in/contact-us/
+
+apis:
+- name: Edufund API
+  description: Edufund provides financial products for education savings but does not expose a public developer API.
+  humanURL: https://www.edufund.in/get-started/
+  aid: edufund:edufund-api
+
+x-backed-by:
+- crane-venture-partners
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: Edufund's website provides no developer program or public API documentation.
+  evidence:
+  - url: https://www.edufund.in/
+    status: 200
+  checked: '2026-10-24'
+x-enrichment:
+  date: '2026-10-24'
+  status: enriched
+  artifacts_added: 11
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
